@@ -12,7 +12,7 @@ app.prepare().then(() => {
 
   server.use(
     "/voyager",
-    voyager.express({ endpointUrl: "http://localhost:5000/graphql" }),
+    voyager.express({ endpointUrl: process.env.GRAPHQL_API }),
   );
 
   server.get("*", (req, res) => {
