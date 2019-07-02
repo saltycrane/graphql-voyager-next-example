@@ -4,7 +4,7 @@ Use [`graphql-voyager`](https://github.com/APIs-guru/graphql-voyager) with [Next
 
 ## Usage
 
-Assume GraphQL API endpoint it http://localhost:5000/graphql
+Assume GraphQL API endpoint is at http://localhost:5000/graphql
 
 ```
 $ npm install
